@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "es2020",
-    "strict": true,
+    "target": "es5",
+    "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -20,8 +19,12 @@
     ],
     "baseUrl": "./",
     "paths": {
-        "@angular/*": ["node_modules/@angular/*"],
-        "@tensorflow/*": ["../node_modules/@tensorflow/*"]
+      "@angular/*": [
+        "node_modules/@angular/*"
+      ],
+      "@tensorflow/*": [
+        "../node_modules/@tensorflow/*"
+      ]
     },
     "typeRoots": [
       "node_modules/@types"
@@ -38,7 +41,6 @@
       "dom-mediacapture-record"
     ]
   },
-  "include": ["src/**/*.ts"],
   "exclude": [
     "node_modules",
     "dist"
