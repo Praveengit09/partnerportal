@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "noEmit": true,
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "strictNullChecks": false,
+      "skipLibCheck": true,
+      "lib": [
+        "dom",
+        "es6",
+        "es2018"
+      ],
+      "baseUrl": "./",
+      "paths": {
+        "@angular/*": ["node_modules/@angular/*"],
+        "@tensorflow/*": ["../node_modules/@tensorflow/*"]
+      },
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "types": [
+        "hammerjs",
+        "jquery",
+        "jasmine",
+        "node",
+        "uglify-js",
+        "webpack",
+        "long",
+        "webgl2",
+        "dom-mediacapture-record"
+      ]
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+      "forkChecker": true,
+      "useWebpackText": true
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "atom": {
+      "rewriteTsconfig": false
+    }
+  }
+  
