@@ -171,7 +171,7 @@
     "devDependencies": {
         "@angular-devkit/build-angular": "^0.803.8",
         "@angular-devkit/build-optimizer": "^0.803.8",
-        "@angular/cli": "^9.1.15",
+        "@angular/cli": "^10.2.1",
         "@angular/compiler-cli": "^8.2.2",
         "@angular/language-service": "^8.2.2",
         "@compodoc/compodoc": "^1.1.3",
