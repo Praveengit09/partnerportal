@@ -170,7 +170,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.3.11",
-    "@angular-devkit/build-optimizer": "^0.803.8",
+    "@angular-devkit/build-optimizer": "^0.1202.18",
     "@angular/cli": "^14.2.12",
     "@angular/compiler-cli": "^13.4.0",
     "@angular/language-service": "^13.4.0",
